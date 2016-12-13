@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lottie Land of Code</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <p class="First-Paragraph">
+        Description
+        <br>
+        In no particular order...
+        <br>
+        <a href="http://www.bbc.co.uk/news/uk-politics-38051579">
+        </a>
+      </p>
+    </div>
+    <div class ="list">
+        <p>
+          <h3>  </h3> <br>
+          &quot; blablabla &quot;
+          <div>
+              <img src="brainicon.jpg" height="50px">
+          </div>
+  </body>
+</html>
