@@ -3,26 +3,45 @@
   <head>
     <title>Lottie And Emma Land of Code</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
     <div class="heading">
-      <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
+      <h1>HTML and CSS 1</h1>
+      <!-- button test here -->
+      <button type="button" class="btn btn-success"><del>Success</del></button>
+      <h2>Bootstrap</h2>
       <p class="First-Paragraph">
         Description
         <br>
         In no particular order...
-        <br>
-        <a href="http://www.bbc.co.uk/news/uk-politics-38051579">
-        </a>
       </p>
     </div>
     <div class ="list">
-        <p>
-          <h3>  </h3> <br>
-          &quot; blablabla &quot;
-          <div>
-              <img src="brainicon.jpg" height="50px">
-          </div>
+          <h3> <mark>Command Line</mark></h3><br>
+          &quot;Ruby Rails&quot;
+    </div>
+    <div>
+    <!--brain image with Trump link fast rotate -->
+    <a href="http://www.bbc.co.uk/news/uk-politics-38051579" target=_blank>
+      <img class="image1" src="brainicon.jpg" class="img-circle" height=100px>
+    </a>
+   </div>
+    <!-- earth image no link slow rotate -->
+    <div class="image2">
+              <img src="earth-outline.png" class="img-circle" height=100px>
+    </div>
+    <div>
+          <p>
+            <small> I enjoy this because I both
+              <a href="http://www.urbandictionary.com/define.php?term=lurv" target=_blank>
+              <abbr title="Love" class="initialism">LURV</abbr>
+              surprises and have no idea what I'm doing </small></p>
+          <p>
+            This is a test for GitHub 13th December
+            Testing again.
+          </p>
+    </div>
   </body>
 </html>
