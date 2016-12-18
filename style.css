@@ -1,0 +1,65 @@
+* {
+  text-align: justify;
+  text-align: center;
+  font-family: Calibri;
+}
+body {
+  background-color: #e0e0d1;
+}
+.heading {
+  color: #7575a3;
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 15px;
+  font-style: italic;
+}
+/* test images animation */
+.image1 {
+
+    position: absolute;
+    top: 50%;
+    right: 90%;
+    height: 100px;
+    width: 80px;
+    margin: auto;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.image2 {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    -webkit-animation:spin 5s linear infinite;
+    -moz-animation:spin 5s linear infinite;
+    animation:spin 5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.First-Paragraph {
+  font-size: 16px;
+  font-style: bold;
+}
+.list {
+  font-size: 15px;
+  text-align: center;
+  color: #47476b
+}
+.final {
+  font-size: 20px;
+  color: #000000;
+  font-style: oblique;
+}
